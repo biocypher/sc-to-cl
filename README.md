@@ -1,5 +1,6 @@
-# BioCypher project template
-A quick way to set up a BioCypher-driven knowledge graph pipeline.
+# Single Cell to Cell Ontology - a BioCypher Knowledge Graph
+A BioCypher-driven knowledge graph pipeline for mapping and harmonising single
+cell experiments.
 
 ## ⚙️ Installation (local, for docker see below)
 1. Clone this repository and install the dependencies using
