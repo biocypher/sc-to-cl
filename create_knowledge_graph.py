@@ -14,9 +14,6 @@ bc = BioCypher(
     biocypher_config_path="config/biocypher_config.yaml",
 )
 
-# Take a look at the ontology structure of the KG according to the schema
-bc.show_ontology_structure()
-
 # Choose node types to include in the knowledge graph.
 # These are defined in the adapter (`adapter.py`).
 node_types = [
@@ -56,9 +53,5 @@ adapter = ExampleAdapter(
 bc.write_nodes(adapter.get_nodes())
 bc.write_edges(adapter.get_edges())
 
-# Write admin import statement
-bc.write_import_call()
-
-# Check output
-bc.log_duplicates()
-bc.log_missing_bl_types()
+# Write admin import statement and check structure / output
+bc.summary()
