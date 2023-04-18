@@ -1,0 +1,46 @@
+Study_id,celltypes,link
+chaffin,Cardiomyocyte
+chaffin,endocardial
+chaffin,endothelial
+chaffin,neuronal
+chaffin,mast cell
+chaffin,activated fibroblast
+chaffin,proliferating macrophage
+chaffin,adipocyte
+chaffin,lymphocyte
+chaffin,pericyte
+chaffin,vsmc
+HCA,"Ventricular_Cardiomyocyte"
+HCA,Endothelial,
+HCA,"Adipocytes"
+HCA,"Lymphoid"
+HCA,"Fibroblast"
+HCA,"Pericytes"
+HCA,"Neuronal"
+HCA,"Smooth_muscle_cells"
+HCA,Myeloid
+test1,CMs
+test1,Neurons
+test1,Endocardial cells
+test1,Epicardial cells
+test1,Fat cells
+test1,
+test1,vascular smooth muscle
+test1,myofibroblast
+hcm_dimmler,cardiomyocytes  
+hcm_dimmler,endothelial cells
+hcm_dimmler,fibroblasts
+hcm_dimmler,pericytes
+hcm_dimmler,smooth muscle cells
+hcm_dimmler,immune cells
+hcm_dimmler,leucocytes
+hcm_dimmler,monocytes
+hf_lavaine,Cardiomyocytes
+hf_lavaine,"fibroblasts"
+hf_lavaine,"endothelial cells"
+hf_lavaine,"pericytes"
+hf_lavaine,"smooth muscles cells "
+hf_lavaine,"myeloid cells"
+hf_lavaine,lymphoid cells
+hf_lavaine,adipocytes
+hf_lavaine,neural cells
