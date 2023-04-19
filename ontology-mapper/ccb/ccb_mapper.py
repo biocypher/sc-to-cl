@@ -21,7 +21,7 @@ celltypes = df_csv['celltypes'].str.replace('[{}]'.format(string.punctuation), '
 
 
 #map the two terms
-df = text2term.map_terms(celltypes, "CL", output_file="ontology-mapper/ccb/mapping.txt", save_mappings=True, use_cache=True)
+df = text2term.map_terms(celltypes, "CL", output_file="ontology-mapper/ccb/mapping.txt", save_graphs=True, save_mappings=True, use_cache=True)
 
 
 #clear the cache
