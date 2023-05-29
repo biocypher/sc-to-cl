@@ -5,6 +5,7 @@ import string
 
 #TODO Required: pip install text2term
 #TODO: Update File for proper use
+#TODO: preprocessing with the text2term tool???
 
 #cache the ontology
 text2term.cache_ontology("http://purl.obolibrary.org/obo/cl.owl", "CL")
@@ -21,8 +22,7 @@ celltypes = df_csv['celltypes'].str.replace('[{}]'.format(string.punctuation), '
 
 
 #map the two terms
-df = text2term.map_terms(celltypes, "CL", output_file="ontology-mapper/ccb/mapping.txt", save_graphs=True, save_mappings=True, use_cache=True)
-
+df = text2term.map_terms(celltypes, "CL", output_file="ontology-mapper/ccb/mapping.csv", base_iris="http://purl.obolibrary.org/obo/CL", save_mappings=True, use_cache=True)
 
 #clear the cache
 text2term.clear_cache("CL")
