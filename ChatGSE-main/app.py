@@ -206,7 +206,7 @@ def ontology_box():
         label_visibility="collapsed",
     )
     #TODO: remove print
-    print("ontology_box:", ss.annotation)
+    print("ontology_box:", ss.terms)
 
 
 def chat_line():

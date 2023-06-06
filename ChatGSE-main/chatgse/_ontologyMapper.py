@@ -25,13 +25,12 @@ class OntologyMapper:
     def _render_msg(role: str, msg: str):
         return f"`{role}`: {msg}"
 
-    #TODO: Umschreiben um Tabellen zuzulassen???
-    def _show_Mapping(self, role: str, df: pd.DataFrame):
-        logger.info(f"Mapping Terms from {role}: {df}")
-        st.markdown(self._render_msg(role, df))
-        
+    def _write_and_history(self, role: str, msg: str):
+        logger.info(f"Writing message from {role}: {msg}")
+        st.markdown(self._render_msg(role, msg))
+        #ss.history.append({role: msg})  --> TODO: Add History to ontology mapping
 
-    def set_ontologies(self, model_name: str):
+    def cache_ontologies(self):
         """
         Set the text2term ontology to use for the mapping.
         """
@@ -47,15 +46,30 @@ class OntologyMapper:
     #TODO uschreiben
     def _get_mapping(self):
         logger.info("Getting Mapping from text2term.")
-
         #extracting the terms and put them into a list
+        #use ; , and \n as split between words
         #TODO: possibility to get the words from a file
-        terms = ss.terms.str.replace('[{}]'.format(string.punctuation), '').tolist()
+        terms = ss.terms.replace(';', '\n').replace(',', '\n').replace('[{}]'.format(string.punctuation), '').split('\n')
+
+        print('Words splitted: ', terms)
+
+        #caching the ontologie if not exists
+        print('Cache exists? ', text2term.cache_exists('CL'))
+        if(not text2term.cache_exists('CL')):
+            self.cache_ontologies()
 
         #map the terms
         #TODO: Optional possibility to save the mappings
         result = text2term.map_terms(terms, "CL", base_iris="http://purl.obolibrary.org/obo/CL",  use_cache=True)
 
-        self._write_and_history("💬🧬 text2term", result)
+        print('Result: ', result)
+
+        self._write_and_history("💬🧬 text2term", "mapping results",)
+        st.markdown(
+        f"""
+        ```
+        {result.to_markdown()}
+        """
+        )
 
         return result
