@@ -205,8 +205,6 @@ def ontology_box():
         ),
         label_visibility="collapsed",
     )
-    #TODO: remove print
-    print("ontology_box:", ss.terms)
 
 
 def chat_line():
@@ -1326,11 +1324,10 @@ def main():
             )
 
             #Add a widget for text input
-            ontology_box()
-            print("ontology:", ss.terms)
             if ss.terms:
                 om._get_mapping()
 
+            ontology_box()
 
             st.markdown(
                 f"`📎 Assistant`: Ontology Mapper {OFFLINE_FUNCTIONALITY}"

@@ -42,8 +42,6 @@ class OntologyMapper:
         text2term.cache_ontology("http://purl.obolibrary.org/obo/cl.owl", "CL")
 
 
-
-    #TODO uschreiben
     def _get_mapping(self):
         logger.info("Getting Mapping from text2term.")
         #extracting the terms and put them into a list
@@ -51,10 +49,7 @@ class OntologyMapper:
         #TODO: possibility to get the words from a file
         terms = ss.terms.replace(';', '\n').replace(',', '\n').replace('[{}]'.format(string.punctuation), '').split('\n')
 
-        print('Words splitted: ', terms)
-
         #caching the ontologie if not exists
-        print('Cache exists? ', text2term.cache_exists('CL'))
         if(not text2term.cache_exists('CL')):
             self.cache_ontologies()
 
@@ -62,14 +57,15 @@ class OntologyMapper:
         #TODO: Optional possibility to save the mappings
         result = text2term.map_terms(terms, "CL", base_iris="http://purl.obolibrary.org/obo/CL",  use_cache=True)
 
-        print('Result: ', result)
-
         self._write_and_history("💬🧬 text2term", "mapping results",)
         st.markdown(
         f"""
         ```
         {result.to_markdown()}
         """
+        
         )
+        #For design
+        st.markdown("\n")
 
         return result
