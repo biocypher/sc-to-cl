@@ -1,0 +1,138 @@
+# Date and time run: 2023-05-03 09:17:40.117048
+# Target Ontology: CL
+# Text2term version: 2.1.0
+# Minimum Score: 0.30
+# Mapper: tfidf
+# Base IRIs: http://purl.obolibrary.org/obo/CL
+# Max Mappings: 3
+# Depricated Terms Included
+Source Term ID,Source Term,Mapped Term Label,Mapped Term CURIE,Mapped Term IRI,Mapping Score
+http://ccb.hms.harvard.edu/t2t/RG526wgKxSm,Cardiomyocyte,cardiac muscle cell,CL:0000746,http://purl.obolibrary.org/obo/CL_0000746,0.9678234034661551
+http://ccb.hms.harvard.edu/t2t/RG526wgKxSm,Cardiomyocyte,fetal cardiomyocyte,CL:0002495,http://purl.obolibrary.org/obo/CL_0002495,0.8158179240750242
+http://ccb.hms.harvard.edu/t2t/RG526wgKxSm,Cardiomyocyte,cardiac muscle myoblast,CL:0000513,http://purl.obolibrary.org/obo/CL_0000513,0.7673767146766971
+http://ccb.hms.harvard.edu/t2t/R4mDaSNYr5B,endocardial,endocardial cell,CL:0002350,http://purl.obolibrary.org/obo/CL_0002350,0.9663155427292247
+http://ccb.hms.harvard.edu/t2t/R4mDaSNYr5B,endocardial,myocardial endocrine cell,CL:0002074,http://purl.obolibrary.org/obo/CL_0002074,0.7415308839865076
+http://ccb.hms.harvard.edu/t2t/R4mDaSNYr5B,endocardial,endocardial cushion cell,CL:0008022,http://purl.obolibrary.org/obo/CL_0008022,0.6564279636303657
+http://ccb.hms.harvard.edu/t2t/RKYf35iCXwU,endothelial,endothelial cell,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,0.9502267417760379
+http://ccb.hms.harvard.edu/t2t/RKYf35iCXwU,endothelial,endothelial cell of high endothelial venule,CL:0002652,http://purl.obolibrary.org/obo/CL_0002652,0.771357995781269
+http://ccb.hms.harvard.edu/t2t/RKYf35iCXwU,endothelial,endocardial cell,CL:0002350,http://purl.obolibrary.org/obo/CL_0002350,0.734660146828856
+http://ccb.hms.harvard.edu/t2t/RHBZr7nwdUx,neuronal,neural stem cell,CL:0000047,http://purl.obolibrary.org/obo/CL_0000047,0.7457615012652901
+http://ccb.hms.harvard.edu/t2t/RHBZr7nwdUx,neuronal,neuron,CL:0000540,http://purl.obolibrary.org/obo/CL_0000540,0.7255036354481648
+http://ccb.hms.harvard.edu/t2t/RHBZr7nwdUx,neuronal,neuronal receptor cell,CL:0000006,http://purl.obolibrary.org/obo/CL_0000006,0.6083793962467728
+http://ccb.hms.harvard.edu/t2t/R4torhoFhvY,mast cell,mast cell,CL:0000097,http://purl.obolibrary.org/obo/CL_0000097,0.923026805068729
+http://ccb.hms.harvard.edu/t2t/R4torhoFhvY,mast cell,mucosal type mast cell,CL:0000485,http://purl.obolibrary.org/obo/CL_0000485,0.635247397627387
+http://ccb.hms.harvard.edu/t2t/R4torhoFhvY,mast cell,cell,CL:0000000,http://purl.obolibrary.org/obo/CL_0000000,0.5969322115716527
+http://ccb.hms.harvard.edu/t2t/RJhWwnGw7CR,activated fibroblast,mature astrocyte,CL:0002627,http://purl.obolibrary.org/obo/CL_0002627,0.6237099335859676
+http://ccb.hms.harvard.edu/t2t/RJhWwnGw7CR,activated fibroblast,fibroblast,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,0.6114849112978168
+http://ccb.hms.harvard.edu/t2t/RJhWwnGw7CR,activated fibroblast,"activated CD8-positive, alpha-beta T cell, human",CL:0001049,http://purl.obolibrary.org/obo/CL_0001049,0.5968903099863736
+http://ccb.hms.harvard.edu/t2t/RJT6YjJcLEt,proliferating macrophage,macrophage,CL:0000235,http://purl.obolibrary.org/obo/CL_0000235,0.6536233256478142
+http://ccb.hms.harvard.edu/t2t/RJT6YjJcLEt,proliferating macrophage,lung macrophage,CL:1001603,http://purl.obolibrary.org/obo/CL_1001603,0.5533300873282195
+http://ccb.hms.harvard.edu/t2t/RJT6YjJcLEt,proliferating macrophage,inflammatory macrophage,CL:0000863,http://purl.obolibrary.org/obo/CL_0000863,0.5361500623087697
+http://ccb.hms.harvard.edu/t2t/REsQshT9isr,adipocyte,fat cell,CL:0000136,http://purl.obolibrary.org/obo/CL_0000136,0.9838197582307294
+http://ccb.hms.harvard.edu/t2t/REsQshT9isr,adipocyte,beige adipocyte,CL:0001070,http://purl.obolibrary.org/obo/CL_0001070,0.7643863758019548
+http://ccb.hms.harvard.edu/t2t/REsQshT9isr,adipocyte,adipocyte of breast,CL:0002617,http://purl.obolibrary.org/obo/CL_0002617,0.7052728254178271
+http://ccb.hms.harvard.edu/t2t/RKnCXiq4hXA,lymphocyte,lymphocyte,CL:0000542,http://purl.obolibrary.org/obo/CL_0000542,0.9922794632214762
+http://ccb.hms.harvard.edu/t2t/RKnCXiq4hXA,lymphocyte,T cell,CL:0000084,http://purl.obolibrary.org/obo/CL_0000084,0.9284764084361595
+http://ccb.hms.harvard.edu/t2t/RKnCXiq4hXA,lymphocyte,B cell,CL:0000236,http://purl.obolibrary.org/obo/CL_0000236,0.9179547591780294
+http://ccb.hms.harvard.edu/t2t/RK827dZrwKS,pericyte,pericyte,CL:0000669,http://purl.obolibrary.org/obo/CL_0000669,0.9712133069455978
+http://ccb.hms.harvard.edu/t2t/RK827dZrwKS,pericyte,lung pericyte,CL:0009089,http://purl.obolibrary.org/obo/CL_0009089,0.7302763405910846
+http://ccb.hms.harvard.edu/t2t/RK827dZrwKS,pericyte,brain pericyte,CL:2000043,http://purl.obolibrary.org/obo/CL_2000043,0.6867080895876954
+http://ccb.hms.harvard.edu/t2t/REcd6Doqcs5,vsmc,vascular associated smooth muscle cell,CL:0000359,http://purl.obolibrary.org/obo/CL_0000359,0.9990473368448443
+http://ccb.hms.harvard.edu/t2t/R8GoF4mT7zw,VentricularCardiomyocyte,regular ventricular cardiac myocyte,CL:0002131,http://purl.obolibrary.org/obo/CL_0002131,0.7733533089474837
+http://ccb.hms.harvard.edu/t2t/R8GoF4mT7zw,VentricularCardiomyocyte,regular interventricular cardiac myocyte,CL:0002100,http://purl.obolibrary.org/obo/CL_0002100,0.5798301270768561
+http://ccb.hms.harvard.edu/t2t/R8GoF4mT7zw,VentricularCardiomyocyte,ventricular cardiac muscle cell,CL:2000046,http://purl.obolibrary.org/obo/CL_2000046,0.5656434073170913
+http://ccb.hms.harvard.edu/t2t/RC5jzGfefeT,Endothelial,endothelial cell,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,0.9502267417760379
+http://ccb.hms.harvard.edu/t2t/RC5jzGfefeT,Endothelial,endothelial cell of high endothelial venule,CL:0002652,http://purl.obolibrary.org/obo/CL_0002652,0.771357995781269
+http://ccb.hms.harvard.edu/t2t/RC5jzGfefeT,Endothelial,endocardial cell,CL:0002350,http://purl.obolibrary.org/obo/CL_0002350,0.734660146828856
+http://ccb.hms.harvard.edu/t2t/RJ3k7NYTFtD,Adipocytes,fat cell,CL:0000136,http://purl.obolibrary.org/obo/CL_0000136,0.9042386463946295
+http://ccb.hms.harvard.edu/t2t/RJ3k7NYTFtD,Adipocytes,obsolete breast adipocyte,CL:1001583,http://purl.obolibrary.org/obo/CL_1001583,0.7482219191940223
+http://ccb.hms.harvard.edu/t2t/RJ3k7NYTFtD,Adipocytes,beige adipocyte,CL:0001070,http://purl.obolibrary.org/obo/CL_0001070,0.6600723752529898
+http://ccb.hms.harvard.edu/t2t/RKmmYsApbNX,Lymphoid,common lymphoid progenitor,CL:0000051,http://purl.obolibrary.org/obo/CL_0000051,0.7632087924699953
+http://ccb.hms.harvard.edu/t2t/RKmmYsApbNX,Lymphoid,innate lymphoid cell,CL:0001065,http://purl.obolibrary.org/obo/CL_0001065,0.675286626299124
+http://ccb.hms.harvard.edu/t2t/RKmmYsApbNX,Lymphoid,plasmacytoid dendritic cell,CL:0000784,http://purl.obolibrary.org/obo/CL_0000784,0.6508477930124477
+http://ccb.hms.harvard.edu/t2t/R9MSbBn4bAj,Fibroblast,fibroblast,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,0.9955614613274759
+http://ccb.hms.harvard.edu/t2t/R9MSbBn4bAj,Fibroblast,muscle fibroblast,CL:1001609,http://purl.obolibrary.org/obo/CL_1001609,0.7970524879196854
+http://ccb.hms.harvard.edu/t2t/R9MSbBn4bAj,Fibroblast,fibroblast of breast,CL:4006000,http://purl.obolibrary.org/obo/CL_4006000,0.7805754940725692
+http://ccb.hms.harvard.edu/t2t/Rntfkr9Rex4,Pericytes,pericyte,CL:0000669,http://purl.obolibrary.org/obo/CL_0000669,0.8791523198490743
+http://ccb.hms.harvard.edu/t2t/Rntfkr9Rex4,Pericytes,lung pericyte,CL:0009089,http://purl.obolibrary.org/obo/CL_0009089,0.6610536885873903
+http://ccb.hms.harvard.edu/t2t/Rntfkr9Rex4,Pericytes,brain pericyte,CL:2000043,http://purl.obolibrary.org/obo/CL_2000043,0.621615257639757
+http://ccb.hms.harvard.edu/t2t/RG9cYgkDcNQ,Neuronal,neural stem cell,CL:0000047,http://purl.obolibrary.org/obo/CL_0000047,0.7457615012652901
+http://ccb.hms.harvard.edu/t2t/RG9cYgkDcNQ,Neuronal,neuron,CL:0000540,http://purl.obolibrary.org/obo/CL_0000540,0.7255036354481648
+http://ccb.hms.harvard.edu/t2t/RG9cYgkDcNQ,Neuronal,neuronal receptor cell,CL:0000006,http://purl.obolibrary.org/obo/CL_0000006,0.6083793962467728
+http://ccb.hms.harvard.edu/t2t/R6Vn9BAwhat,Smoothmusclecells,smooth muscle cell,CL:0000192,http://purl.obolibrary.org/obo/CL_0000192,0.646948025502441
+http://ccb.hms.harvard.edu/t2t/R6Vn9BAwhat,Smoothmusclecells,enteric smooth muscle cell,CL:0002504,http://purl.obolibrary.org/obo/CL_0002504,0.5388114331368017
+http://ccb.hms.harvard.edu/t2t/R6Vn9BAwhat,Smoothmusclecells,ureter smooth muscle cell,CL:1000979,http://purl.obolibrary.org/obo/CL_1000979,0.5314501186313846
+http://ccb.hms.harvard.edu/t2t/R59zt92PnHA,Myeloid,myeloid cell,CL:0000763,http://purl.obolibrary.org/obo/CL_0000763,0.9742098241427924
+http://ccb.hms.harvard.edu/t2t/R59zt92PnHA,Myeloid,"common myeloid progenitor, CD34-positive",CL:0001059,http://purl.obolibrary.org/obo/CL_0001059,0.8252166110437468
+http://ccb.hms.harvard.edu/t2t/R59zt92PnHA,Myeloid,common myeloid progenitor,CL:0000049,http://purl.obolibrary.org/obo/CL_0000049,0.8252166110437468
+http://ccb.hms.harvard.edu/t2t/R854MKc2V9U,CMs,"common myeloid progenitor, CD34-positive",CL:0001059,http://purl.obolibrary.org/obo/CL_0001059,0.3370727169684688
+http://ccb.hms.harvard.edu/t2t/R854MKc2V9U,CMs,common myeloid progenitor,CL:0000049,http://purl.obolibrary.org/obo/CL_0000049,0.3370727169684688
+http://ccb.hms.harvard.edu/t2t/R8539cQ7N8V,Neurons,neuron,CL:0000540,http://purl.obolibrary.org/obo/CL_0000540,0.7232694417136954
+http://ccb.hms.harvard.edu/t2t/R8539cQ7N8V,Neurons,peripheral nervous system neuron,CL:2000032,http://purl.obolibrary.org/obo/CL_2000032,0.5720424257024447
+http://ccb.hms.harvard.edu/t2t/R8539cQ7N8V,Neurons,neuroendocrine cell,CL:0000165,http://purl.obolibrary.org/obo/CL_0000165,0.5328248245088087
+http://ccb.hms.harvard.edu/t2t/RE6NR6mbPru,Endocardial cells,endocardial cell,CL:0002350,http://purl.obolibrary.org/obo/CL_0002350,0.9228629629352608
+http://ccb.hms.harvard.edu/t2t/RE6NR6mbPru,Endocardial cells,myocardial endocrine cell,CL:0002074,http://purl.obolibrary.org/obo/CL_0002074,0.708186258466869
+http://ccb.hms.harvard.edu/t2t/RE6NR6mbPru,Endocardial cells,endocardial cushion cell,CL:0008022,http://purl.obolibrary.org/obo/CL_0008022,0.6269101848020575
+http://ccb.hms.harvard.edu/t2t/RJbgc768qDn,Epicardial cells,epicardial adipocyte,CL:1000309,http://purl.obolibrary.org/obo/CL_1000309,0.7358357258693661
+http://ccb.hms.harvard.edu/t2t/RJbgc768qDn,Epicardial cells,mesothelial cell of epicardium,CL:0011019,http://purl.obolibrary.org/obo/CL_0011019,0.559747681483916
+http://ccb.hms.harvard.edu/t2t/RJbgc768qDn,Epicardial cells,adipocyte of epicardial fat of left ventricle,CL:1000311,http://purl.obolibrary.org/obo/CL_1000311,0.5009800740637397
+http://ccb.hms.harvard.edu/t2t/R4VtW6hmEyP,Fat cells,fat cell,CL:0000136,http://purl.obolibrary.org/obo/CL_0000136,0.8933903152911459
+http://ccb.hms.harvard.edu/t2t/R4VtW6hmEyP,Fat cells,beige adipocyte,CL:0001070,http://purl.obolibrary.org/obo/CL_0001070,0.6100305646599637
+http://ccb.hms.harvard.edu/t2t/R4VtW6hmEyP,Fat cells,fat body cell,CL:0000565,http://purl.obolibrary.org/obo/CL_0000565,0.5913663226142308
+http://ccb.hms.harvard.edu/t2t/REVMjX5nAt8,vascular smooth muscle,vascular associated smooth muscle cell,CL:0000359,http://purl.obolibrary.org/obo/CL_0000359,0.9738014510628042
+http://ccb.hms.harvard.edu/t2t/REVMjX5nAt8,vascular smooth muscle,smooth muscle cell of the brain vasculature,CL:0002590,http://purl.obolibrary.org/obo/CL_0002590,0.6899502433162925
+http://ccb.hms.harvard.edu/t2t/REVMjX5nAt8,vascular smooth muscle,smooth muscle cell,CL:0000192,http://purl.obolibrary.org/obo/CL_0000192,0.6857563025596503
+http://ccb.hms.harvard.edu/t2t/RDf5hFKEhNX,myofibroblast,myofibroblast cell,CL:0000186,http://purl.obolibrary.org/obo/CL_0000186,0.9760835374048035
+http://ccb.hms.harvard.edu/t2t/RDf5hFKEhNX,myofibroblast,secondary crest myofibroblast,CL:4033016,http://purl.obolibrary.org/obo/CL_4033016,0.7705074026487901
+http://ccb.hms.harvard.edu/t2t/RDf5hFKEhNX,myofibroblast,fibroblast,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,0.7280699925746071
+http://ccb.hms.harvard.edu/t2t/RFgkHqFZ4FX,cardiomyocytes  ,cardiac muscle cell,CL:0000746,http://purl.obolibrary.org/obo/CL_0000746,0.9152320452331774
+http://ccb.hms.harvard.edu/t2t/RFgkHqFZ4FX,cardiomyocytes  ,fetal cardiomyocyte,CL:0002495,http://purl.obolibrary.org/obo/CL_0002495,0.7714865175970921
+http://ccb.hms.harvard.edu/t2t/RFgkHqFZ4FX,cardiomyocytes  ,cardiac muscle myoblast,CL:0000513,http://purl.obolibrary.org/obo/CL_0000513,0.725677595233344
+http://ccb.hms.harvard.edu/t2t/RE2NYtDffJe,endothelial cells,endothelial cell,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,0.9218187275755187
+http://ccb.hms.harvard.edu/t2t/RE2NYtDffJe,endothelial cells,colon endothelial cell,CL:1001572,http://purl.obolibrary.org/obo/CL_1001572,0.7675075671465997
+http://ccb.hms.harvard.edu/t2t/RE2NYtDffJe,endothelial cells,endothelial cell of high endothelial venule,CL:0002652,http://purl.obolibrary.org/obo/CL_0002652,0.7183276759776229
+http://ccb.hms.harvard.edu/t2t/RCmKwc2MaAq,fibroblasts,fibroblast,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,0.826813352171948
+http://ccb.hms.harvard.edu/t2t/RCmKwc2MaAq,fibroblasts,muscle fibroblast,CL:1001609,http://purl.obolibrary.org/obo/CL_1001609,0.6619517377813531
+http://ccb.hms.harvard.edu/t2t/RCmKwc2MaAq,fibroblasts,fibroblast of arm,CL:2000015,http://purl.obolibrary.org/obo/CL_2000015,0.6288668628644529
+http://ccb.hms.harvard.edu/t2t/R3Gm7f3mCwr,pericytes,pericyte,CL:0000669,http://purl.obolibrary.org/obo/CL_0000669,0.8791523198490743
+http://ccb.hms.harvard.edu/t2t/R3Gm7f3mCwr,pericytes,lung pericyte,CL:0009089,http://purl.obolibrary.org/obo/CL_0009089,0.6610536885873903
+http://ccb.hms.harvard.edu/t2t/R3Gm7f3mCwr,pericytes,brain pericyte,CL:2000043,http://purl.obolibrary.org/obo/CL_2000043,0.621615257639757
+http://ccb.hms.harvard.edu/t2t/R9LnG7p5rcZ,smooth muscle cells,smooth muscle cell,CL:0000192,http://purl.obolibrary.org/obo/CL_0000192,0.9389772711287545
+http://ccb.hms.harvard.edu/t2t/R9LnG7p5rcZ,smooth muscle cells,enteric smooth muscle cell,CL:0002504,http://purl.obolibrary.org/obo/CL_0002504,0.7820283379748233
+http://ccb.hms.harvard.edu/t2t/R9LnG7p5rcZ,smooth muscle cells,ureter smooth muscle cell,CL:1000979,http://purl.obolibrary.org/obo/CL_1000979,0.7713441612964124
+http://ccb.hms.harvard.edu/t2t/RKBKAQY7Tun,immune cells,leukocyte,CL:0000738,http://purl.obolibrary.org/obo/CL_0000738,0.8942559301467153
+http://ccb.hms.harvard.edu/t2t/RKBKAQY7Tun,immune cells,thymocyte,CL:0000893,http://purl.obolibrary.org/obo/CL_0000893,0.3375826567786174
+http://ccb.hms.harvard.edu/t2t/RKBKAQY7Tun,immune cells,immature T cell,CL:0002420,http://purl.obolibrary.org/obo/CL_0002420,0.3375826567786174
+http://ccb.hms.harvard.edu/t2t/RKKaGojcTHP,leucocytes,leukocyte,CL:0000738,http://purl.obolibrary.org/obo/CL_0000738,0.9242842341304456
+http://ccb.hms.harvard.edu/t2t/RKKaGojcTHP,leucocytes,granulocyte,CL:0000094,http://purl.obolibrary.org/obo/CL_0000094,0.6500358243758474
+http://ccb.hms.harvard.edu/t2t/RKKaGojcTHP,leucocytes,neutrophil,CL:0000775,http://purl.obolibrary.org/obo/CL_0000775,0.6232069695900505
+http://ccb.hms.harvard.edu/t2t/R9a4mVmdEDs,monocytes,monocyte,CL:0000576,http://purl.obolibrary.org/obo/CL_0000576,0.9082004781869589
+http://ccb.hms.harvard.edu/t2t/R9a4mVmdEDs,monocytes,monoblast,CL:0000040,http://purl.obolibrary.org/obo/CL_0000040,0.7014283574658213
+http://ccb.hms.harvard.edu/t2t/R9a4mVmdEDs,monocytes,monocytoid B cell,CL:0009114,http://purl.obolibrary.org/obo/CL_0009114,0.6049813085928905
+http://ccb.hms.harvard.edu/t2t/RJhcgGghJeq,Cardiomyocytes,cardiac muscle cell,CL:0000746,http://purl.obolibrary.org/obo/CL_0000746,0.9152320452331774
+http://ccb.hms.harvard.edu/t2t/RJhcgGghJeq,Cardiomyocytes,fetal cardiomyocyte,CL:0002495,http://purl.obolibrary.org/obo/CL_0002495,0.7714865175970921
+http://ccb.hms.harvard.edu/t2t/RJhcgGghJeq,Cardiomyocytes,cardiac muscle myoblast,CL:0000513,http://purl.obolibrary.org/obo/CL_0000513,0.725677595233344
+http://ccb.hms.harvard.edu/t2t/R4fZaajbxeo,fibroblasts,fibroblast,CL:0000057,http://purl.obolibrary.org/obo/CL_0000057,0.826813352171948
+http://ccb.hms.harvard.edu/t2t/R4fZaajbxeo,fibroblasts,muscle fibroblast,CL:1001609,http://purl.obolibrary.org/obo/CL_1001609,0.6619517377813531
+http://ccb.hms.harvard.edu/t2t/R4fZaajbxeo,fibroblasts,fibroblast of arm,CL:2000015,http://purl.obolibrary.org/obo/CL_2000015,0.6288668628644529
+http://ccb.hms.harvard.edu/t2t/RBzWYyWMTUy,endothelial cells,endothelial cell,CL:0000115,http://purl.obolibrary.org/obo/CL_0000115,0.9218187275755187
+http://ccb.hms.harvard.edu/t2t/RBzWYyWMTUy,endothelial cells,colon endothelial cell,CL:1001572,http://purl.obolibrary.org/obo/CL_1001572,0.7675075671465997
+http://ccb.hms.harvard.edu/t2t/RBzWYyWMTUy,endothelial cells,endothelial cell of high endothelial venule,CL:0002652,http://purl.obolibrary.org/obo/CL_0002652,0.7183276759776229
+http://ccb.hms.harvard.edu/t2t/R35ayTuhpuH,pericytes,pericyte,CL:0000669,http://purl.obolibrary.org/obo/CL_0000669,0.8791523198490743
+http://ccb.hms.harvard.edu/t2t/R35ayTuhpuH,pericytes,lung pericyte,CL:0009089,http://purl.obolibrary.org/obo/CL_0009089,0.6610536885873903
+http://ccb.hms.harvard.edu/t2t/R35ayTuhpuH,pericytes,brain pericyte,CL:2000043,http://purl.obolibrary.org/obo/CL_2000043,0.621615257639757
+http://ccb.hms.harvard.edu/t2t/RG3nJr8U9Wc,smooth muscles cells ,smooth muscle cell,CL:0000192,http://purl.obolibrary.org/obo/CL_0000192,0.8448030211825176
+http://ccb.hms.harvard.edu/t2t/RG3nJr8U9Wc,smooth muscles cells ,enteric smooth muscle cell,CL:0002504,http://purl.obolibrary.org/obo/CL_0002504,0.7035952018064159
+http://ccb.hms.harvard.edu/t2t/RG3nJr8U9Wc,smooth muscles cells ,ureter smooth muscle cell,CL:1000979,http://purl.obolibrary.org/obo/CL_1000979,0.693982589217914
+http://ccb.hms.harvard.edu/t2t/RH26o3EQnRu,myeloid cells,myeloid cell,CL:0000763,http://purl.obolibrary.org/obo/CL_0000763,0.9281064890022025
+http://ccb.hms.harvard.edu/t2t/RH26o3EQnRu,myeloid cells,common myeloid progenitor,CL:0000049,http://purl.obolibrary.org/obo/CL_0000049,0.7861642046322145
+http://ccb.hms.harvard.edu/t2t/RH26o3EQnRu,myeloid cells,"common myeloid progenitor, CD34-positive",CL:0001059,http://purl.obolibrary.org/obo/CL_0001059,0.7861642046322145
+http://ccb.hms.harvard.edu/t2t/R5QgY9qZX4A,lymphoid cells,common lymphoid progenitor,CL:0000051,http://purl.obolibrary.org/obo/CL_0000051,0.7412701940717117
+http://ccb.hms.harvard.edu/t2t/R5QgY9qZX4A,lymphoid cells,innate lymphoid cell,CL:0001065,http://purl.obolibrary.org/obo/CL_0001065,0.6558753691906167
+http://ccb.hms.harvard.edu/t2t/R5QgY9qZX4A,lymphoid cells,plasmacytoid dendritic cell,CL:0000784,http://purl.obolibrary.org/obo/CL_0000784,0.6321390353432667
+http://ccb.hms.harvard.edu/t2t/R9Bd5xvYbUK,adipocytes,fat cell,CL:0000136,http://purl.obolibrary.org/obo/CL_0000136,0.9042386463946295
+http://ccb.hms.harvard.edu/t2t/R9Bd5xvYbUK,adipocytes,obsolete breast adipocyte,CL:1001583,http://purl.obolibrary.org/obo/CL_1001583,0.7482219191940223
+http://ccb.hms.harvard.edu/t2t/R9Bd5xvYbUK,adipocytes,beige adipocyte,CL:0001070,http://purl.obolibrary.org/obo/CL_0001070,0.6600723752529898
+http://ccb.hms.harvard.edu/t2t/R7VBxGYBEjc,neural cells,neural cell,CL:0002319,http://purl.obolibrary.org/obo/CL_0002319,0.9201749953499769
+http://ccb.hms.harvard.edu/t2t/R7VBxGYBEjc,neural cells,neural stem cell,CL:0000047,http://purl.obolibrary.org/obo/CL_0000047,0.6889137330046572
+http://ccb.hms.harvard.edu/t2t/R7VBxGYBEjc,neural cells,neural crest cell,CL:0011012,http://purl.obolibrary.org/obo/CL_0011012,0.6370253234302783
